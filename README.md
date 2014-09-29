@@ -10,7 +10,7 @@ Andrew Kramer
 
 #Compiling
 
-gcc -Wall -O3 -o hcmaskgen hcmaskgen.c libhcmask.c
+	gcc -Wall -O3 -o hcmaskgen hcmaskgen.c libhcmask.c
 
 
 #Usage
@@ -23,4 +23,4 @@ gcc -Wall -O3 -o hcmaskgen hcmaskgen.c libhcmask.c
 
 #Example
 
-hcmaskgen -1 "?dabcdef" -2 "?l?u" "?2?1?1?d?a"
+	hcmaskgen -1 "?dabcdef" -2 "?l?u" "?2?1?1?d?a"
